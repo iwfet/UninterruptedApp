@@ -37,4 +37,4 @@ process.on("exit", (code) => {
 
 setTimeout(() => {
   process.exit(1);
-}, Math.random() * 1e4);
+}, Math.random() * 1e5);
